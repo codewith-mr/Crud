@@ -25,10 +25,6 @@ const Crud = () => {
     if (taskTest.trim() === "" || selectedIndex === null) {
       return;
     }
-    // let copy = [...task];
-    // copy[selectedIndex] = taskTest;
-    // setTaskTest([copy]);
-    // settask("");
 
     let copy = [...task];
     copy[selectedIndex] = taskTest;
