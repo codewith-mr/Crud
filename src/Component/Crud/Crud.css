@@ -1,0 +1,35 @@
+.container {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  row-gap: 10px;
+  gap: 20px;
+}
+
+button {
+  all: unset;
+  padding: 2px 16px;
+  background-color: rgba(149, 204, 255, 0.842);
+  border-radius: 20px !important;
+  border: 1px solid rgb(121, 190, 255);
+  color: black;
+  letter-spacing: 1px;
+}
+.list_container {
+  padding: 20px 0;
+  width: 100%;
+}
+.list_container > div {
+  width: 100%;
+}
+.list_container > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+.list_container > div > div > div {
+  display: flex;
+  gap: 10px;
+}
